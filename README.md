@@ -21,3 +21,6 @@ Simple stock trading algorithm that is built with Alpaca API. There is also an i
 * Click on run and it will instantly run Rebalance Algorithm within your account
     * Must be a paper account unless you tweak some code.
 * The script will output some logs as well as your positions open and the orders placed
+
+### Long-Short-Browser
+* [alpaca js github](https://github.com/alpacahq/alpaca-trade-api-js/tree/master/examples/long-short-browser)
