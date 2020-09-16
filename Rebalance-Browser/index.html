@@ -18,13 +18,18 @@
         crossorigin="anonymous"></script>
 
     <!-- Local files -->
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="algo.css" />
     <!-- <script src="utils/Chart.bundle.js"></script> -->
     <script src="algo.js"></script>
     <script src="utils/cors-api.js"></script>
 </head>
 
 <body>
+    <div class="home-page">
+        <div class="homePage" id="home">
+            <span onclick="location='/index.html'" STYLE="text-decoration: none">Home Page</span>
+        </div>
+    </div>
     <div id="title-container">
         <h1>Rebalance</h1>
     </div>
@@ -33,7 +38,7 @@
             <div id="positions">
                 <h5 style="margin: 5px; font-weight: bold;">Positions</h5>
                 <div id="positions-title">
-                    <p class="position-fragment">Ticker</p>
+                    <p class="position-fragment">Sym</p>
                     <p class="position-fragment">Qty</p>
                     <p class="position-fragment">Side</p>
                     <p class="position-fragment">+/-</p>
@@ -45,7 +50,7 @@
             <div id="orders">
                 <h5 style="margin: 5px; font-weight: bold;">Orders</h5>
                 <div id="order-title">
-                    <p class="order-fragment">Ticker</p>
+                    <p class="order-fragment">Sym</p>
                     <p class="order-fragment">Qty</p>
                     <p class="order-fragment">Side</p>
                     <p class="order-fragment">Type</p>
@@ -56,9 +61,10 @@
             </div>
         </div>
         <div id="chart-container">
-            <div id="explanation">
-                <h5 style="margin: 5px; font-weight: normal; font-style: oblique; color: rgb(154, 170, 187);">Rebalance is a trading algorithm that takes advantage of diversification and rebalancing to help control volatility and increase returns. Plug in your account's credentials to give it a try!</h5>
-            </div>
+            <!-- <div id="explanation">Rebalance
+            is a trading algorithm will rebalance your holdings to a set weight of each. If you don't have credentials to use feel
+            free to use mine.. Key: PK0FWSNJI7XIYVAA9GU9 Secret: ntOeAH0nYLeyiouaE5Y4FPsVD5SmuBGv8SqnjJF
+            </div> -->
         </div>
         <div id="event-log">
             <!-- <div id="logs">
